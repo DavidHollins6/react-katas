@@ -1,16 +1,13 @@
+// Kata 10: see README.md for what to build.
+
 import { useState } from 'react';
 
-// TODO: finish this hook.
-// It should behave like useState, but also:
-//   - start from the value saved in localStorage under `key` (if there is one)
-//   - save the value to localStorage (as JSON) whenever it changes
 export function useLocalStorage(key, initialValue) {
   const [value, setValue] = useState(initialValue);
   return [value, setValue];
 }
 
 export default function App() {
-  // TODO: swap these for useLocalStorage('nickname', '') and useLocalStorage('darkMode', false)
   const [nickname, setNickname] = useState('');
   const [darkMode, setDarkMode] = useState(false);
 

@@ -1,7 +1,6 @@
-// TODO: import useState from 'react'
+// Kata 03: see README.md for what to build.
 
 export default function App() {
-  // TODO: replace this hard-coded number with state
   const count = 0;
 
   return (
@@ -9,7 +8,6 @@ export default function App() {
       <h1>☕ Coffee counter</h1>
       <p className="card">Count: {count}</p>
       <div className="row">
-        {/* TODO: make these buttons update the count */}
         <button>-1</button>
         <button>+1</button>
         <button>Reset</button>

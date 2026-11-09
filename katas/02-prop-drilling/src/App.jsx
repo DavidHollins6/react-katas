@@ -1,11 +1,11 @@
+// Kata 02: see README.md for what to build.
+
 const defaultUser = { name: 'Ada', plan: 'Pro' };
 
-// TODO: Greeting should say "Welcome back, <name>!"
 function Greeting() {
   return <h1>Welcome back, ???!</h1>;
 }
 
-// TODO: UserBadge should say "<name> · <plan> plan"
 function UserBadge() {
   return <div className="card">??? · ??? plan</div>;
 }
@@ -36,7 +36,6 @@ function Dashboard() {
 }
 
 // `App` receives the user as a prop (it falls back to `defaultUser`).
-// TODO: pass `user` down through Dashboard → Header/Sidebar → Greeting/UserBadge.
 export default function App({ user = defaultUser }) {
   return <Dashboard />;
 }

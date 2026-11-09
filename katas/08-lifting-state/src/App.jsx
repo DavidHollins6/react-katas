@@ -1,3 +1,5 @@
+// Kata 08: see README.md for what to build.
+
 import { useState } from 'react';
 
 // ---- Helpers (already done, no need to change these) ----
@@ -26,8 +28,6 @@ function BoilingVerdict({ celsius }) {
   );
 }
 
-// TODO: this component shouldn't own its own state.
-// Make it take `value` and `onChange` props from its parent instead.
 function TemperatureInput({ scale }) {
   const [value, setValue] = useState('');
 
@@ -40,8 +40,6 @@ function TemperatureInput({ scale }) {
 }
 
 export default function App() {
-  // TODO: lift the temperature state up to here
-
   return (
     <main>
       <h1>🌡️ Temperature converter</h1>
@@ -49,7 +47,6 @@ export default function App() {
         <TemperatureInput scale="c" />
         <TemperatureInput scale="f" />
       </div>
-      {/* TODO: pass the temperature in Celsius */}
       <BoilingVerdict />
     </main>
   );

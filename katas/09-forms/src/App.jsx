@@ -1,13 +1,6 @@
-// TODO: import useState
+// Kata 09: see README.md for what to build.
 
 export default function App() {
-  // TODO: store the form values, the errors, and whether sign-up succeeded
-
-  // TODO: handle the form being submitted
-  //  - stop the page reloading
-  //  - validate the fields
-  //  - show errors, or show "Welcome, <name>!" if everything is valid
-
   return (
     <main>
       <h1>✍️ Sign up</h1>

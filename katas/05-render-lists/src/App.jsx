@@ -1,4 +1,4 @@
-// TODO: import useState
+// Kata 05: see README.md for what to build.
 
 const initialItems = [
   { id: 1, name: 'Milk', bought: false },
@@ -9,18 +9,13 @@ const initialItems = [
 ];
 
 export default function App() {
-  // TODO: keep the items in state, starting from `initialItems`
-
   return (
     <main>
       <h1>🛒 Shopping list</h1>
 
-      {/* TODO: show "<bought> of <total> bought" */}
       <p className="muted">? of ? bought</p>
 
-      <ul className="card">
-        {/* TODO: render one <li> per item, with a checkbox and a Remove button */}
-      </ul>
+      <ul className="card"></ul>
     </main>
   );
 }

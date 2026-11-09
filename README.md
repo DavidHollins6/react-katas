@@ -5,7 +5,7 @@ Small, focused exercises for practising React, one idea at a time.
 Each kata is a tiny single-page React app with:
 
 - a **`README.md`** that explains the task, what "done" looks like, and has hints (hidden until you click them)
-- a starter **`src/App.jsx`** with `// TODO` comments showing where to work
+- a starter **`src/App.jsx`** to build on. It renders, but doesn't do what the README asks yet. Working out *where* the changes go is part of the exercise.
 - **tests** in `src/App.test.jsx` that tell you when you've got it right
 - a **`solution/App.jsx`** to compare with *after* you've had a go
 

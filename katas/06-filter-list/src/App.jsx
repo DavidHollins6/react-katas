@@ -1,4 +1,4 @@
-// TODO: import useState
+// Kata 06: see README.md for what to build.
 
 const animals = [
   { id: 1, name: 'Lion', type: 'Mammal' },
@@ -16,9 +16,6 @@ const animals = [
 const types = ['All', 'Mammal', 'Bird', 'Reptile', 'Fish'];
 
 export default function App() {
-  // TODO: add state for the search text and the selected type
-
-  // TODO: work out which animals to show based on the search and type
   const visible = animals;
 
   return (
@@ -28,12 +25,10 @@ export default function App() {
       <div className="row">
         <div>
           <label htmlFor="search">Search</label>
-          {/* TODO: make this controlled */}
           <input id="search" placeholder="e.g. lion" />
         </div>
         <div>
           <label htmlFor="type">Type</label>
-          {/* TODO: make this controlled */}
           <select id="type">
             {types.map((type) => (
               <option key={type} value={type}>
@@ -44,10 +39,8 @@ export default function App() {
         </div>
       </div>
 
-      {/* TODO: show the real numbers */}
       <p className="muted">Showing ? of ?</p>
 
-      {/* TODO: show "No animals found" when nothing matches */}
       <ul className="card">
         {visible.map((animal) => (
           <li key={animal.id}>
