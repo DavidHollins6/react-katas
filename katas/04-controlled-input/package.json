@@ -1,0 +1,9 @@
+{
+  "name": "04-controlled-input",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "test": "vitest"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "05-render-lists",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "test": "vitest"
+  }
+}

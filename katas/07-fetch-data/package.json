@@ -1,0 +1,9 @@
+{
+  "name": "07-fetch-data",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "test": "vitest"
+  }
+}

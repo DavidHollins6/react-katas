@@ -1,0 +1,9 @@
+{
+  "name": "08-lifting-state",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "test": "vitest"
+  }
+}

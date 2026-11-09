@@ -1,0 +1,9 @@
+{
+  "name": "03-counter-state",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "test": "vitest"
+  }
+}

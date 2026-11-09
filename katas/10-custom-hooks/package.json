@@ -1,0 +1,9 @@
+{
+  "name": "10-custom-hooks",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "test": "vitest"
+  }
+}
